@@ -1,0 +1,57 @@
+\documentclass[x11names][12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage[margin=1in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{xcolor}
+
+\begin{document}
+\renewcommand{\baselinestretch}{2.0}
+\setcounter{page}{11}
+
+% Appendix Titles
+\begin{center}
+\textbf{Appendix A)}
+\end{center}
+
+% Equations with independent tags
+\begin{equation}
+e = \frac{v_B^{'} - v_A^{'}}{v_B - v_A}, \ v_A^{'} \ \& \ v_A = 0 \tag{1}\\
+\end{equation}\\
+\begin{equation}
+e = \frac{v_B^{'}}{v_B}\tag{1}\\
+\end{equation}\\
+\begin{equation}
+ev_{n-1} = v_n \tag{A.1}\\
+\end{equation}\\
+\begin{equation}
+ev_{n-2} =v_{n-1} \tag{A.2}\\
+\end{equation}\\
+
+
+% 2nd Appendix
+\pagebreak
+\begin{center}
+\textbf{Appendix B: Derivation of Eq (3)}
+\end{center}
+
+% Aligned Equation
+\begin{equation}
+\begin{aligned} \nonumber
+v_{B,t} & = v_0 + at, \ v_{B,0} = 0,  \ a = g\\ \nonumber 
+	   & = gt
+\end{aligned}\\ \tag{B.1}
+\end{equation}
+
+% Commentary text between equations with inline equation
+\noindent \textit{Substituting in Eq. (C.1.4) for $t_0$}\\
+
+
+% Example color
+\textcolor{Firebrick1}{Hello World!}\\
+\colorbox{Thistle3}{Hello World!}\\
+
+
+
+\end{document}
